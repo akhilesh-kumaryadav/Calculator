@@ -1,0 +1,102 @@
+#cal-layout
+{
+    height: 75vh;
+    width: 50vw;
+    background-color: lightgray;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    border-radius: 10px;
+}
+
+#inner-cal-layout
+{
+    height: 92%;
+    width: 95%;
+    /* background-color: yellow; */
+    position: relative;
+    margin-left: 2.5%;
+    top: 5%;
+}
+
+#heading
+{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+#heading p
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 180%;
+    position: relative;
+    top: 10%;
+    color : white;
+}
+
+#inputted-area
+{
+    height: 20%;
+    width: 100%;
+    background-color:rgb(90, 88, 88);
+    position: relative;
+    top: 2.5%;
+}
+
+#display
+{
+    height: 80%;
+    width: 94%;
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 3%;
+    /* background-color: blue; */
+    text-align: end;
+    font-size: 1.8rem;
+}
+
+#key-buttons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    height: 65%;
+    /* background-color: azure; */
+    position: relative;
+    top: 5%;
+}
+
+.k-button
+{
+    height: 18.5%;
+    width: 24.5%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.k-button:hover
+{
+    background-color: lightsalmon;
+}
+
+.k-button div
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    
+}
+
+.brown
+{
+    background-color: rgb(221, 64, 64);
+    color: white;
+}
